@@ -27,7 +27,7 @@ class BankAccount:
 
     def __ne__(self, other):
         if type(other) == int or type(other) == float:
-            return self.balance == other
+            return self.balance != other
         if type(self) != type(other):
             return False
         return self.balance != other.balance
