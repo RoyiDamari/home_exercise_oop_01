@@ -16,7 +16,7 @@ class BankAccount:
                 f"Balance: {self.balance}, Created: {self.creation_time}")
 
     def __repr__(self):
-        return f"BankAccount('{self.account_id}', '{self.full_name_owner}', '{self.balance}')"
+        return f"BankAccount({self.account_id}, '{self.full_name_owner}', {self.balance})"
 
     def __eq__(self, other):
         if type(other) == int or type(other) == float:
