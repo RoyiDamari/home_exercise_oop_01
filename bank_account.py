@@ -1,4 +1,3 @@
-# Exercise 1
 import shelve
 from datetime import datetime
 import time
